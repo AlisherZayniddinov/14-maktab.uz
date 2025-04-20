@@ -1,79 +1,66 @@
 <!DOCTYPE html>
 <html lang="uz">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>14-Maktab</title>
-    <link rel="stylesheet" href="styles.css"> <!-- CSS fayli ulanishi -->
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
-        <h1>14-Maktab</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Bosh sahifa</a></li>
-                <li><a href="#about">Haqida</a></li>
-                <li><a href="#courses">Kurslar</a></li>
-                <li><a href="#events">Tadbirlar</a></li>
-                <li><a href="#contact">Aloqa</a></li>
-                <li><a href="#blog">Blog</a></li>
-            </ul>
-        </nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/maktab.jpg" alt="14-Maktab logotipi">
+                <span>14-Maktab</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Bosh sahifa</a></li>
+                    <li><a href="#about">Haqida</a></li>
+                    <li><a href="#courses">Kurslar</a></li>
+                    <li><a href="#events">Tadbirlar</a></li>
+                    <li><a href="#gallery">Galereya</a></li>
+                    <li><a href="#contact">Aloqa</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section id="home">
         <h2>Bosh sahifa</h2>
-        <p>14-Maktab o‘quvchilari uchun eng yaxshi imkoniyatlarni yaratadi. O‘quvchilarga sifatli ta'lim taqdim etish bizning asosiy maqsadimizdir.</p>
+        <p>14-Maktab o‘quvchilari uchun eng yaxshi imkoniyatlarni yaratadi!</p>
+        <img src="images/maktab.jpg" alt="14-Maktab rasmi" class="hero-img">
     </section>
 
     <section id="about">
         <h2>Biz haqimizda</h2>
-        <p>14-Maktab — O‘zbekistonning etakchi ta’lim muassasalaridan biri. O‘quvchilarga zamonaviy o‘qitish metodlari, yuqori malakali o‘qituvchilar va eng yaxshi sharoitlar taqdim etiladi.</p>
+        <p>14-Maktab — O‘zbekistonning etakchi ta’lim muassasalaridan biri. Bu yerda o‘quvchilarga zamonaviy metodlar asosida ta'lim beriladi.</p>
     </section>
 
     <section id="courses">
         <h2>Kurslar</h2>
-        <p>Bizning maktabda turli sohalarda kurslar mavjud. Har bir kurs yuqori malakali o‘qituvchilar tomonidan o‘tiladi va o‘quvchilarga ko‘p imkoniyatlar yaratadi. Quyidagi kurslar mavjud:</p>
-        <ul>
-            <li>Matematika</li>
-            <li>Ingliz tili</li>
-            <li>Fizika</li>
-            <li>Kimyo</li>
-            <li>Kompyuter fanlari</li>
-        </ul>
+        <p>Matematika, Informatika, Fizika, Ingliz tili va boshqa fanlardan chuqurlashtirilgan kurslar mavjud.</p>
     </section>
 
     <section id="events">
         <h2>Tadbirlar</h2>
-        <p>Bizda har doim yangi tadbirlar, musobaqalar va seminarlar tashkil etiladi. Barcha o‘quvchilarimizga yangi imkoniyatlar ochiladi. Quyidagi tadbirlar o‘tkazilmoqda:</p>
-        <ul>
-            <li>Ilmiy konferensiya</li>
-            <li>Sport musobaqalari</li>
-            <li>O‘quvchilar uchun seminarlar</li>
-            <li>Festival va konsertlar</li>
-        </ul>
+        <p>Yil davomida ko‘plab madaniy va ilmiy tadbirlar o‘tkaziladi.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Galereya</h2>
+        <p>Bu bo‘limda maktab hayotidan suratlar joylashtiriladi.</p>
     </section>
 
     <section id="contact">
         <h2>Aloqa</h2>
-        <p>Agar siz biz bilan bog'lanmoqchi bo'lsangiz, quyidagi ma'lumotlar orqali murojaat qilishingiz mumkin:</p>
-        <ul>
-            <li>Email: info@14maktab.uz</li>
-            <li>Telefon: +998 71 123 45 67</li>
-            <li>Manzil: Tashkent, O‘zbekiston</li>
-        </ul>
+        <p>Biz bilan bog‘lanish uchun: <br>Email: info@14-maktab.uz <br>Telefon: +998 94 306-47-74</p>
     </section>
 
     <section id="blog">
         <h2>Blog</h2>
-        <p>14-Maktabdagi so‘nggi yangiliklar va maqolalar bilan tanishish uchun bizning blogimizni o‘qib chiqing.</p>
-        <ul>
-            <li><a href="#">Yangi kurslar haqida</a></li>
-            <li><a href="#">Maktabda o‘tkazilgan tadbirlar</a></li>
-            <li><a href="#">Maktabda muvaffaqiyatli o‘quvchilar</a></li>
-        </ul>
+        <p>Maktab yangiliklari, o‘qituvchilar maqolalari va o‘quvchilar yutuqlari shu bo‘limda e'lon qilinadi.</p>
     </section>
 
     <footer>
@@ -81,7 +68,6 @@
         <p>Dasturchi: Alisher Zayniddinov</p>
     </footer>
 
-    <script src="script.js"></script> <!-- JavaScript fayli ulanishi -->
+    <script src="script.js"></script>
 </body>
-
 </html>
