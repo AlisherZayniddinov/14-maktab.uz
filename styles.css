@@ -1,73 +1,74 @@
-/* Umumiy body uchun */
+/* Bosh sahifa dizayni */
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #f4f4f4;
 }
 
-/* Header qismi */
 header {
-    background-color: #004080;
+    background-color: #4CAF50;
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 36px;
 }
 
-/* Navigatsiya menyusi */
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
-    margin: 10px 0 0 0;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
     color: white;
-    font-weight: bold;
-    transition: color 0.3s;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 nav ul li a:hover {
-    color: #ffcc00;
+    text-decoration: underline;
 }
 
-/* Asosiy bo‘lim */
 section {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-section h2 {
-    font-size: 28px;
-    margin-bottom: 15px;
-}
-
-section p {
-    font-size: 18px;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-/* Footer dizayni */
-footer {
-    text-align: center;
     padding: 20px;
-    background-color: #eaeaea;
-    font-size: 14px;
-    color: #555;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-footer p:last-child {
-    color: #888;
-    font-style: italic;
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Mobil responsiv dizayn */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
 }

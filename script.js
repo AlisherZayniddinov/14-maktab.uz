@@ -1,7 +1,3 @@
-// Sayt ishga tushganidan so'ng konsolga habar chiqarish
-console.log("Sayt ishga tushdi!");
-
-// JavaScript orqali interaktivlik qo'shish
-document.querySelector("h1").addEventListener("click", function() {
-    alert("Siz 14-Maktab logotipini bosdingiz!");
-});
+// Saytni interaktiv qilish uchun JavaScript qo‘shish mumkin
+// Masalan, o‘zgartirishlar qo‘shish, shakllarni tekshirish yoki alertlar
+console.log("Sayt ishlamoqda!");
